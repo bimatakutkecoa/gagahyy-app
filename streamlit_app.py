@@ -5,7 +5,7 @@ st.write(
     "welcome to bima web."
 )
 st.header("a rafe dawgh")
-st.image("IMG_20250422_121644_814.jpg")
+st.image("IMG_20250422_121644_814.jpg", width=150)
 
 st.title("special day")
 st.write(
