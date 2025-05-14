@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🎈 welcome to barudawgh")
+st.title("welcome to barudawgh")
 st.write(
     "welcome to bima web."
 )never thought I could come this far with you,
