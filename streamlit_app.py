@@ -15,3 +15,6 @@ st.write(
 st.image("IMG_20250424_190909_919.jpg", width=200)
 st.write("\n")
 st.title("TSB")
+wt.image("IMG-20250513-WA0069.jpg", width=160)
+st.write(
+    "Hari duper seruu sama mereka, meskipun capenya banget🖕🏼)
