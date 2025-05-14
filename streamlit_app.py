@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("welcome to barudawgh")
+st.title("welcome")
 st.write(
     "welcome to bima web."
 )
@@ -14,3 +14,4 @@ st.write(
     "siap sangka bisa kenal lebih dalam sama kylie 😲.")
 st.image("IMG_20250424_190909_919.jpg", width=200)
 st.write("\n")
+st.title("TSB")
