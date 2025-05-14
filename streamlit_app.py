@@ -9,7 +9,7 @@ st.image("IMG_20250422_121644_814.jpg")
 
 st.title("special day")
 st.write(
-    "never thought I could come this far with you🙀.")
+    "never thought I could come this far with you 🙀.")
 st.write(
-    "siap sangka bisa kenal lebih dalam sama kylie😲.")
+    "siap sangka bisa kenal lebih dalam sama kylie 😲.")
 st.image("IMG_20250424_190909_919.jpg", width=200)
