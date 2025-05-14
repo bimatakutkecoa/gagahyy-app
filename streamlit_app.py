@@ -12,3 +12,4 @@ st.write(
     "never thought I could come this far with you🙀.")
 st.write(
     "siap sangka bisa kenal lebih dalam sama kylie😲.")
+st.image("IMG_20250424_190909_919.jpg", width=200)
