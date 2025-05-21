@@ -34,8 +34,7 @@ else:
 st.write("\n")
 st.write(
     "hari ini hari tercampur aduk".)
-
-st.write('\n")
+st.write("\n")
 import streamlit as st
 
 from streamlit_login_auth_ui.widgets import __login__
