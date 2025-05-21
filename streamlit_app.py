@@ -33,7 +33,7 @@ else:
     st.write(f"{angka} adalah bilangan ganjil")
 st.write("\n")
 st.write(
-    "hari ini hari tercampur aduk".)
+    "hari ini hari tercampur aduk")
 st.write("\n")
 import streamlit as st
 
