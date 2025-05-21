@@ -19,7 +19,8 @@ st.image("IMG-20250513-WA0069.jpg", width=200)
 st.write(
     "Hari duper seruu sama mereka, meskipun capenya banget🖕🏼🖕🏼,")
 st.write("\n")
-st.write("info adu lumpat 💨.)
+st.write(
+    "info adu lumpat.)
 st.video("VID-20250518-WA0012.mp4", width=200)
 
 
