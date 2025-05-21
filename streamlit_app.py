@@ -41,6 +41,8 @@ if (pilih mau) ==0:
 else:
     st.write(f"{pilih} kamu harus jadi pacar aku")
 
+st.write("\n")
+
 import streamlit as st
 
 def main_page():
