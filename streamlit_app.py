@@ -40,3 +40,33 @@ if (pilih mau) ==0:
     st.write(f"{pilih} kamu jadi pacar aku")
 else:
     st.write(f"{pilih} kamu harus jadi pacar aku")
+
+import streamlit as st
+
+def main_page():
+    st.title("Halaman Utama")
+    st.write("Ini adalah halaman utama aplikasi Streamlit.")
+    st.write("Klik pada sidebar untuk ke halaman selanjutnya.")
+
+def next_page():
+    st.title("Halaman Selanjutnya")
+    st.write("Selamat datang di halaman selanjutnya!")
+    st.write("Anda bisa menambahkan konten apapun di sini.")
+    # Example interactive element
+    name = st.text_input("Masukkan nama Anda:")
+    if name:
+        st.write(f"Halo, {name}! Senang bertemu dengan Anda di halaman ini.")
+
+def main():
+    st.sidebar.title("Navigasi")
+    page = st.sidebar.radio("Pilih halaman:", ("Halaman Utama", "Halaman Selanjutnya"))
+
+    if page == "Halaman Utama":
+        main_page()
+    elif page == "Halaman Selanjutnya":
+        next_page()
+
+if __name__ == "__main__":
+    main()
+
+
