@@ -21,6 +21,6 @@ st.write(
 st.write("\n")
 st.write(
     "info adu lumpat💨🚀.")
-st.video("VID-20250518-WA0012.mp4", width=200)
+st.video("VID-20250518-WA0012.mp4")
 
 
