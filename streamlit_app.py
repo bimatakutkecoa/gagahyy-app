@@ -31,3 +31,12 @@ if (angka % 2) == 0:
     st.write(f"{angka} adalah bilangan genap")
 else:
     st.write(f"{angka} adalah bilangan ganjil")
+st.write("\n")
+st.title("menyatakan perasaanku kepadamu")
+st.header("maukah kamu menjadi pacarku")
+pilih = st.choose_input("tulis mau atau tidak:",value=0, step=1)
+
+if (pilih mau) ==0:
+    st.write(f"{pilih} kamu jadi pacar aku")
+else:
+    st.write(f"{pilih} kamu harus jadi pacar aku")
