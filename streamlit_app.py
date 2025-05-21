@@ -5,7 +5,7 @@ st.write(
     "welcome to bima web."
 )
 st.header("a rafe dawgh")
-st.image("IMG_20250422_121644_814.jpg", width=150)
+st.image("IMG_20250422_121644_814.jpg", width=200)
 
 st.title("special day")
 st.write(
@@ -21,7 +21,7 @@ st.write(
 st.write("\n")
 st.write(
     "info adu lumpat💨🚀.")
-st.video("VID-20250518-WA0012.mp4")
+st.video("VID-20250518-WA0012.mp4", width=200)
 st.write("\n")
 st.title("aplikasi sederhana")
 st.header("aplikasi mengecek nilai genap/ganjil")
