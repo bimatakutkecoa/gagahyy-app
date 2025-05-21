@@ -31,5 +31,3 @@ if (angka % 2) == 0:
     st.write(f"{angka} adalah bilangan genap")
 else:
     st.write(f"{angka} adalah bilangan ganjil")
-
-
