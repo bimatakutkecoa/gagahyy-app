@@ -32,43 +32,25 @@ if (angka % 2) == 0:
 else:
     st.write(f"{angka} adalah bilangan ganjil")
 st.write("\n")
-st.title("menyatakan perasaanku kepadamu")
-st.header("maukah kamu menjadi pacarku")
-pilih = st.choose_input("tulis mau atau tidak:",value=0, step=1)
+st.write(
+    "hari ini hari tercampur aduk")
 
-if (pilih mau) ==0:
-    st.write(f"{pilih} kamu jadi pacar aku")
-else:
-    st.write(f"{pilih} kamu harus jadi pacar aku")
-
-st.write("\n")
-
+st.write('\n")
 import streamlit as st
 
-def main_page():
-    st.title("Halaman Utama")
-    st.write("Ini adalah halaman utama aplikasi Streamlit.")
-    st.write("Klik pada sidebar untuk ke halaman selanjutnya.")
+from streamlit_login_auth_ui.widgets import __login__
 
-def next_page():
-    st.title("Halaman Selanjutnya")
-    st.write("Selamat datang di halaman selanjutnya!")
-    st.write("Anda bisa menambahkan konten apapun di sini.")
-    # Example interactive element
-    name = st.text_input("Masukkan nama Anda:")
-    if name:
-        st.write(f"Halo, {name}! Senang bertemu dengan Anda di halaman ini.")
+__login__obj = __login__(auth_token = "courier_auth_token", 
+                    company_name = "Shims",
+                    width = 200, height = 250, 
+                    logout_button_name = 'Logout', hide_menu_bool = False, 
+                    hide_footer_bool = False, 
+                    lottie_url = 'https://assets2.lottiefiles.com/packages/lf20_jcikwtux.json')
 
-def main():
-    st.sidebar.title("Navigasi")
-    page = st.sidebar.radio("Pilih halaman:", ("Halaman Utama", "Halaman Selanjutnya"))
+LOGGED_IN = __login__obj.build_login_ui()
 
-    if page == "Halaman Utama":
-        main_page()
-    elif page == "Halaman Selanjutnya":
-        next_page()
+if LOGGED_IN == True:
 
-if __name__ == "__main__":
-    main()
+    st.markown("Your Streamlit Application Begins here!")
 
 
