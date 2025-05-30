@@ -35,6 +35,5 @@ st.write("\n")
 st.header("Rabu 21 Mei 2025")
 st.write(
     "hari ini hari tercampur aduk")
-
-
+st.image("1748603352323.jpg")
 
